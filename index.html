@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚠️ ALERTA DE SEGURIDAD ⚠️</title>
+    <link rel="stylesheet" href="css/hacked.css">
+</head>
+<body>
+    <div class="system-alert" id="systemAlert">
+        <div class="alert-content">
+            <div class="alert-header">
+                <img src="img/warning-icon.png" alt="Warning" class="warning-icon">
+                <h2>¡ALERTA DE SEGURIDAD!</h2>
+            </div>
+            <div class="alert-body">
+                <p class="alert-text">Se ha detectado una amenaza de seguridad crítica en su dispositivo.</p>
+                <div class="alert-details">
+                    <p>⚠️ Malware detectado: Trojan.Win32</p>
+                    <p>⚠️ Intento de phishing activo</p>
+                    <p>⚠️ Acceso no autorizado en curso</p>
+                </div>
+                <p class="alert-warning">Su dispositivo está siendo comprometido. Se recomienda acción inmediata.</p>
+            </div>
+            <div class="alert-footer">
+                <button class="alert-button" onclick="return false;">CERRAR</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="matrix-bg"></div>
+    <div class="container">
+        <div class="header">
+            <h1 class="glitch" data-text="SISTEMA COMPROMETIDO">SISTEMA COMPROMETIDO</h1>
+            <div class="status-bar">
+                <span class="status">[ CONECTADO ]</span>
+                <span class="ip">IP: 192.168.1.1</span>
+            </div>
+        </div>
+
+        <div class="terminal">
+            <div class="terminal-header">
+                <span class="terminal-title">root@system:~#</span>
+            </div>
+            <div class="terminal-content" id="terminalContent">
+                <div class="line">Iniciando escaneo de red...</div>
+                <div class="line">Buscando vulnerabilidades...</div>
+                <div class="line">Acceso no autorizado detectado...</div>
+            </div>
+        </div>
+
+        <div class="data-leak">
+            <h2>DATOS COMPROMETIDOS</h2>
+            <div class="leak-container">
+                <div class="leak-item">
+                    <span class="timestamp">[2024-03-21 15:30:45]</span>
+                    <span class="data">Acceso a sistema principal detectado</span>
+                </div>
+                <div class="leak-item">
+                    <span class="timestamp">[2024-03-21 15:30:46]</span>
+                    <span class="data">Bypass de firewall exitoso</span>
+                </div>
+                <div class="leak-item">
+                    <span class="timestamp">[2024-03-21 15:30:47]</span>
+                    <span class="data">Extracción de datos en progreso...</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="countdown">
+            <div class="countdown-text">Sistema comprometido en:</div>
+            <div class="countdown-number" id="countdown">10</div>
+        </div>
+    </div>
+
+    <script src="js/hacked.js"></script>
+</body>
+</html> 
